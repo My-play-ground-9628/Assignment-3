@@ -164,11 +164,12 @@ public class Assignment3 {
 
         //Lets generate the table 
         System.out.println("+".concat("-".repeat(40)).concat("+"));
-        System.out.printf("|%-10s: %-52s|\n", "Name", name);
-        System.out.printf("|%-10s: %-38s|\n", "Age", age + " years old");
-        System.out.printf("|%-10s: %-50s|\n", "Status", Status);
-        System.out.printf("|%-10s: %-38s|\n", "Total", String.format("%.2f", total));
-        System.out.printf("|%-10s: %-38s|\n", "Average", String.format("%.2f", avg).concat("%"));
+        System.out.printf("|%10s: %-42s|\n", "Name", name);
+        System.out.printf("|%10s: %-28s|\n", "Age", age + " years old");
+        System.out.printf("|%10s: %-42s|\n", "Status", Status);
+        System.out.printf("|%10s: %-28s|\n", "Total", String.format("%.2f", total));
+        System.out.printf("|%10s: %-28s|\n", "Average", String.format("%.2f", avg).concat("%"));
+        
         
 
 
